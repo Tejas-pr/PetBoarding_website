@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appointment Booking</title>
+	<link rel="stylesheet" type="text/css" href="pay.css">
+</head>
+<body>
+	<h1>Appointment Booking</h1>
+<form action="process_payment.php" method="POST">
+    <label for="card_number">Card Number:</label>
+    <input type="text" id="card_number" name="card_number">
+  
+    <label for="exp_date">Expiration Date:</label>
+    <input type="text" id="exp_date" name="exp_date">
+  
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" name="cvv">
+  
+    <label for="name_on_card">Name on Card:</label>
+    <input type="text" id="name_on_card" name="name_on_card">
+    <input type="button" value="Submit Payment" onclick="alert('Paytment successfull')">
+  </form>
+</body>
+</html>

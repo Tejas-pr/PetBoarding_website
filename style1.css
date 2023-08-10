@@ -1,0 +1,10 @@
+.course li {
+   list-style: number;
+   padding: 5px 5px;
+   color:rgb(0, 0, 0);
+
+}
+.course h1{
+    color: rgb(96, 4, 17);
+    background-color: rgb(151, 236, 208);
+}

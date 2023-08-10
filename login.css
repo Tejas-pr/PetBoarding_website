@@ -1,0 +1,54 @@
+body{
+        background-image: url(login_image.jfif);
+        /*background-repeat: no-repeat;*/
+        background-size: cover;
+    }
+.log{
+    /* border: 2px solid black; */
+    /* border-radius: 25px; */
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.log1{
+    background-image: url(login_image.jfif);
+    background-size: cover;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 3px solid rgb(60, 94, 144);
+}
+
+label{
+    padding-left:  25px;
+    padding-top: 25px;
+    width:150px;
+    display: inline-block;
+}
+input{
+    margin: 5px 50px;
+    padding: 2px 2px;
+    border-radius: 5px;
+    display: inline-block;
+}
+input:hover{
+    transform: scale(1.2);
+}
+.btn{
+    padding-top: 15px ;
+    padding-left: 40%;
+    
+    
+}
+button:hover{
+    color: white;
+    background-color: rgb(13, 13, 13);}
+h1{
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
